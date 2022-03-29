@@ -1,0 +1,45 @@
+#errorLi{
+    color:black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.errors{
+    color:white;
+}
+
+.formContainer {
+    display: flex;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectInputTitle {
+    width: 500px;
+}
+
+.projectInputDescription {
+    width: 800px;
+    height:100px
+}
+
+.projectInputMedia {
+    width: 400px
+}
+
+
+.SaveProjectChangesContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.SaveProjectChanges {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}

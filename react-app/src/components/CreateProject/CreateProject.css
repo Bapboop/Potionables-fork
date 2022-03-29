@@ -1,0 +1,89 @@
+.newProjectsForm{
+    width: max-content;
+
+
+    /* font-family: "Segoe UI", sans-serif; */
+    font-size: 16px;
+    font-family:'Redressed', cursive;
+    padding: 75px 75px 75px 75px;
+    background: #151414;
+    border: 1px solid #302d2d;
+
+   /* margin-left: 40%;
+   margin-right: 40%; */
+   margin-left: auto;
+   margin-right:auto;
+   margin-top: 5%;
+   background-color: #151414;
+   border: 1px solid #302d2d;
+   border-radius: 7px;
+   margin-bottom: 50px;
+
+}
+
+.newTextArea{
+    font-size: 16px;
+    padding: 5px 5px;
+    /* margin: 50px 0; */
+    height:175px;
+    width:525px;
+    background-color:#323131;
+    color: whitesmoke;
+    border-radius: 4px;
+    font-family:'Redressed', cursive;
+    border: none;
+
+}
+
+.newProjectTitle{
+    font-size: 50px;
+    color:white;
+
+
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-family:'Redressed', cursive;
+      -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gold;
+}
+
+/* .newTextArea:focus {
+    border: 1px solid whitesmoke;
+} */
+
+.newProjectsinputLogin:focus {
+    border: 1px solid whitesmoke;
+}
+
+
+.newProjectsinputLogin{
+    width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  /* border: 1px solid #ccc; */
+  box-sizing: border-box;
+  font-family:'Redressed', cursive;
+  color: whitesmoke;
+
+}
+
+.newProjectsinput-parent{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.newProjectsinput-parent input{
+    padding: 10px 8px;
+    width: 100%;
+    font-size: 16px;
+    background: #323131;
+    border: none;
+    color: whitesmoke;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.2s ease;
+}

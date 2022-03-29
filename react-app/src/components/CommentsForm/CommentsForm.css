@@ -1,0 +1,51 @@
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.errors {
+    display: flex;
+    justify-content: center;
+}
+
+/* .CommentsSection {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    height: 80%
+}
+
+.commentInput {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 150px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.submitCommentBttn {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.submitCommentContainer {
+    display: flex;
+    justify-content: center;
+}

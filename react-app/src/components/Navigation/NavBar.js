@@ -53,9 +53,11 @@ const NavBar = () => {
 
           <ul className="nav-bottom-right">
 
+              <NavLink to={`/projects/new`}>
             <li className="publish">
-              <NavLink to={`/projects/new`}>Publish</NavLink>
+                Create
             </li>
+                </NavLink>
 
             <li>
               <Search />

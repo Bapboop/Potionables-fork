@@ -16,9 +16,9 @@ const NavBar = () => {
     sessionLinks = (
       <>
         <nav>
-        <div className='logOutButtontest' >
-              <LogoutButton />
-            </div>
+        {/* <div className='logOutButtontest' > */}
+              {/* <LogoutButton /> */}
+            {/* </div> */}
           <ul className="nav-top-options">
             {/* <li>
               <NavLink to="/" exact={true} activeClassName="active">
@@ -28,11 +28,11 @@ const NavBar = () => {
             {/* <li>PLACE HOLDER1</li>
             <li>PLACE HOLDER2</li> */}
           </ul>
-          {/* <ul className="nav-login-options">
+           <ul className="nav-login-options">
             <li>
               <LogoutButton />
             </li>
-          </ul> */}
+          </ul>
         </nav>
         <div className="nav-bottom-options">
           <ul className="nav-bottom-left">
@@ -47,15 +47,15 @@ const NavBar = () => {
             </NavLink>
             {/* <li>Projects</li> */}
           </ul>
-          <div className="publish">
+          {/* <div className="publish">
               <NavLink to={`/projects/new`}>Publish</NavLink>
-            </div>
+            </div> */}
 
           <ul className="nav-bottom-right">
 
-            {/* <li className="publish">
+            <li className="publish">
               <NavLink to={`/projects/new`}>Publish</NavLink>
-            </li> */}
+            </li>
 
             <li>
               <Search />

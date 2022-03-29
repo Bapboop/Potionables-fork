@@ -104,9 +104,9 @@ const NavBar = () => {
           </ul>
           <ul className="nav-bottom-right">
             {/* <li className="publish">Publish</li> */}
-            {/* <li>
+            <li>
               <Search />
-            </li> */}
+            </li>
           </ul>
         </div>
       </>

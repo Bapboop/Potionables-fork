@@ -4,6 +4,12 @@ Live link: https://potionable.herokuapp.com/
 ![image](https://user-images.githubusercontent.com/6257940/160671159-2bf70192-4cbe-4ccd-a3ce-020098220301.png)
 
 
+Users can view and leave comments on recipes.
+![image](https://user-images.githubusercontent.com/6257940/160677606-7e5141ea-b4f9-4fe4-87fa-61d5dae7da95.png)
+
+Users can also create their own recipes:
+![image](https://user-images.githubusercontent.com/6257940/160678103-ab7a9a8a-8292-4874-b9cf-010e498aca50.png)
+
 
 Technologies Used
 Backend:

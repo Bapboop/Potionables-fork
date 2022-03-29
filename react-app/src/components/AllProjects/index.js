@@ -64,8 +64,8 @@ const AllProjects = () => {
 
   return (
     <div className='divWrapperMainPage'>
-      <div className='searchTitle'>Search for potions...</div>
-      <input className='liveSearchBar'value={searchKeyword}  onChange={(e) => setSearchKeyword(e.target.value)} />
+      {/* <div className='searchTitle'>Search for potions...</div> */}
+      {/* <input className='liveSearchBar'value={searchKeyword}  onChange={(e) => setSearchKeyword(e.target.value)} /> */}
       <div className="image-container">
 
         {searchKeyword? null : (

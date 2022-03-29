@@ -160,3 +160,7 @@ nav {
     color:rgb(0, 0, 0);
     font-weight: bolder;
 }
+
+.publish:hover {
+    color:black !important;
+}
